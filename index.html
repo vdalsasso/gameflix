@@ -4,18 +4,26 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style/main.css">
-        <title>NETFLIX CLONE</title>
+        
+        <!-- responsividade -->
+        <link rel="stylesheet" href="style/responsive.css">
+
+        <!-- owl css-->
+        <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+        <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+        <title>GAMEFLIX - OS PRINCIPAIS GAMES DO MOMENTO</title>
     </head>
 
     <body>
         <header>
             <div class="container">
-                <h2 class="logo">NETFLIX</h2>
+                <h2 class="logo">GAMEFLIX</h2>
                 <nav>
                     <a href="#">Inicio</a>
-                    <a href="#">Séries</a>
-                    <a href="#">Filmes</a>
-                    <a href="#">Documentários</a>
+                    <a href="#">RPGS</a>
+                    <a href="#">Shooters</a>
+                    <a href="#">Estratégia</a>
                 </nav>
             </div>
         </header>
@@ -23,13 +31,16 @@
         <main>
             <div class="filme-principal">
                 <div class="container">
-                    <h3 class="titulo">BREAKING BAD</h3>
-                    <p class="descricao">Ao saber que tem câncer, um professor passa a fabricar metanfetamina pelo futuro da família, mudando o destino de todos. Assista agora a nova temporada de Breaking Bad, que está imperdível.</p>
+                    <h3 class="titulo">TOMB RAIDER</h3>
+                    <p class="descricao">Tomb Raider explora a impressionante e sombria origem de Lara Croft, e sua transição de uma jovem e assustada garota para uma sobrevivente implacável. Contando apenas com seus extintos e sua habilidade de ultrapassar os limites do ser humano, Lara deve lutar para desvendar a misteriosa história de uma ilha perdida e escapar de suas garras.</p>
                     <div class="botoes">
-                        <button role="button" class="botao">
-                            <i class="fas fa-play"></i>
-                            ASSISTIR AGORA
-                        </button>
+                        <a href="https://www.youtube.com/watch?v=XYtyeqVQnRI">
+                            <button role="button" class="botao">
+                                <i class="fas fa-play"></i>
+                                ASSISTIR TRAILER AGORA
+                            </button>
+                        </a>
+
                         <button role="button" class="botao">
                             <i class="fas fa-info-circle"></i>
                             MAIS INFORMAÇÕES
@@ -38,7 +49,56 @@
                 </div>
             </div>
         </main>
+
+        <div class="carrosel-filmes">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <a href="https://www.youtube.com/watch?v=oQtHENM_GZU">
+                        <img class="box-filme" src="img/game1.png" href="https://www.youtube.com/watch?v=9n3vPEnhu28">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://www.youtube.com/watch?v=u1nY_5-UrY4">
+                        <img class="box-filme" src="img/game2.png">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://www.youtube.com/watch?v=Jioo5uXoNLg">
+                        <img class="box-filme" src="img/game3.png">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://www.youtube.com/watch?v=OwVe4ZNeQZk">
+                        <img class="box-filme" src="img/game4.png">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://www.youtube.com/watch?v=s_SJZSAtLBA">
+                        <img class="box-filme" src="img/game5.png">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://www.youtube.com/watch?v=Ls8FBFFjMxk">
+                        <img class="box-filme" src="img/game6.png">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://www.youtube.com/watch?v=9DM7NsxOS0Q">
+                        <img class="box-filme" src="img/game7.png">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://www.youtube.com/watch?v=EsJ55BzIvkE">
+                        <img class="box-filme" src="img/game8.png">
+                    </a>
+                </div>
+            </div>
+        </div>
         
         <script src="https://kit.fontawesome.com/de04dda2b0.js" crossorigin="anonymous"></script>
+        <script src="js/owl/jquery.min.js"></script>
+        <script src="js/owl/owl.carousel.min.js"></script>
+        <script src="js/owl/setup.js"></script>
+    
     </body>
 </html>
