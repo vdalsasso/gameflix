@@ -1,0 +1,1 @@
+Página web de listagem dos games mais populares, através de um carousel que redireciona aos trailers de cada jogo, inspirada no layout da Netlfix
